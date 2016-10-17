@@ -1,0 +1,25 @@
+{
+  "name": "express-min",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Minimal express server",
+  "main": "lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ukoloff@github.com/ukoloff/express-min.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ukoloff/express-min/issues"
+  },
+  "homepage": "https://github.com/ukoloff/express-min#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "serve-index": "^1.8.0"
+  }
+}
