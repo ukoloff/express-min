@@ -1,0 +1,12 @@
+h1 !
+p #{n}! = #{factorial(n)}
+form(action="/fact")
+  input(
+    type="text"
+    required
+    autofocus
+    name="n"
+    value=n)
+  input(type="submit" value="Нажми меня!")
+hr
+a(href="/") Home
