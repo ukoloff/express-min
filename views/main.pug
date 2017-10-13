@@ -1,6 +1,13 @@
 doctype html
 head
+  -
+    var title = "Hello, world!"
+    var goHome = true
+  block vars
+  title #{title}
 body
+  h1 #{title}
   block body
-  hr
-  a(href="/") Home
+  if goHome
+    hr
+    a(href="/") Home

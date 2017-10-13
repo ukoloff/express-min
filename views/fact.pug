@@ -1,4 +1,9 @@
 extends main
+
+block vars
+  -
+    title = "Factorial"
+
 block body
   p #{n}! = #{factorial(n)}
   form(action="/fact")
